@@ -1,0 +1,103 @@
+/* ChatbotComponent.css */
+
+/* Overall container styling */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .react-chatbot-kit-chat-inner-container {
+    width: 90vw;
+  }
+  
+  .chatbot-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  /* File upload section */
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .upload-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .upload-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .analyze-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .analyze-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Chatbot input styling */
+  .react-chatbot-kit-chat-input-form {
+    width: 90vw;
+  }
+  
+  .react-chatbot-kit-chat-input-container {
+    width: 90vw;
+  }
+  
+  /* Bot message styling */
+  .react-chatbot-kit-chat-bot-message {
+    font-size: 1.2rem;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  /* User message styling */
+  .react-chatbot-kit-chat-user-message {
+    font-size: 1.2rem;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+  }
+  
+  .react-chatbot-kit-user-chat-message{
+    font-size: 1.2rem;
+  }
